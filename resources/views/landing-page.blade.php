@@ -55,7 +55,7 @@
 
     <body>
         <div id="logo">
-            <img src="{{asset("logo.png")}}" height="160px" >
+            <img src="{{asset("logo.png")}}" height="160px" width="160px" alt="Our logo">
         </div>
 
         <div id="content">
@@ -106,10 +106,10 @@
         <div id="featured">
             <h2 id="featured_headline">As featured in</h2>
             <div id="magazines">
-                <img src="{{asset("telegraph.png")}}" width="350vh" height="80vw">
-                <img src="{{asset("wsj.png")}}" width="350vh" height="80vw">
-                <img src="{{asset("wired.png")}}" width="200vh" height="90vw">
-                <img src="{{asset("forbes.png")}}" width="200vh" height="80vw">
+                <img src="{{asset("telegraph.png")}}" width="350vh" height="80vw" alt="The Telegraph logo">
+                <img src="{{asset("wsj.png")}}" width="350vh" height="80vw" alt="The Wall street Journal logo">
+                <img src="{{asset("wired.png")}}" width="200vh" height="90vw" alt="Wired logo">
+                <img src="{{asset("forbes.png")}}" width="200vh" height="80vw" alt="Forbes logo">
             </div>
         </div>
     </body>
