@@ -36,15 +36,15 @@
                 flex-direction: row;
                 justify-content: space-evenly;
             }
-            #featured {
-                margin-top: 5em;
-            }
+
             #featured_headline {
-                display: flex;
-                justify-content: space-evenly;
+                text-align: center;
+                margin-top: 10vh;
             }
+
             #magazines {
                 display: flex;
+                flex-wrap: wrap;
                 justify-content: space-evenly;
             }
             p{
@@ -103,14 +103,12 @@
             </form>
         </div>
 
-        <div id="featured">
-            <h2 id="featured_headline">As featured in</h2>
-            <div id="magazines">
-                <img src="{{asset("telegraph.png")}}" width="350vh" height="80vw" alt="The Telegraph logo">
-                <img src="{{asset("wsj.png")}}" width="350vh" height="80vw" alt="The Wall Street Journal logo">
-                <img src="{{asset("wired.png")}}" width="200vh" height="90vw" alt="Wired logo">
-                <img src="{{asset("forbes.png")}}" width="200vh" height="80vw" alt="Forbes logo">
-            </div>
+        <h2 id="featured_headline">As featured in</h2>
+        <div id="magazines">
+            <img src="{{asset("telegraph.png")}}" width="350vh" height="80vw" alt="The Telegraph logo">
+            <img src="{{asset("wsj.png")}}" width="350vh" height="80vw" alt="The Wall Street Journal logo">
+            <img src="{{asset("wired.png")}}" width="200vh" height="90vw" alt="Wired logo">
+            <img src="{{asset("forbes.png")}}" width="200vh" height="80vw" alt="Forbes logo">
         </div>
     </body>
 
