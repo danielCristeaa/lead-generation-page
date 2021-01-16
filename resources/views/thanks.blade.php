@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Sign up</title>
+    <title>Thanks <3</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -38,6 +38,21 @@
         }
         #back {
             margin: 1em;
+        }
+
+        @media (max-width: 600px) {
+            #logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #description {
+                width: 100%;
+            }
+            body{
+                background-size: cover;
+                color: #cbd5e0;
+            }
         }
     </style>
 </head>

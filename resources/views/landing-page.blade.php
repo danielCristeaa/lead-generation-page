@@ -36,7 +36,21 @@
                 flex-direction: row;
                 justify-content: space-evenly;
             }
+            @media (max-width: 600px) {
+                #content {
+                    flex-direction: column;
+                }
 
+                #description {
+                    width: 100%;
+                }
+
+                body {
+                    padding-left: 2vw;
+                    padding-right: 2vw;
+                }
+
+            }
             #featured_headline {
                 text-align: center;
                 margin-top: 10vh;
