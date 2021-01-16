@@ -87,25 +87,25 @@
                     <div class="form-group">
                         <input type="text" class="form-control" name="firstname" placeholder="First name">
                         @if ($errors->has('firstname'))
-                            <span class="text-dark">{{ $errors->first('firstname') }}</span>
+                            <span class="text-light">{{ $errors->first('firstname') }}</span>
                         @endif
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control" name="lastname" placeholder="Last name">
                         @if ($errors->has('lastname'))
-                            <span class="text-dark">{{ $errors->first('lastname') }}</span>
+                            <span class="text-light">{{ $errors->first('lastname') }}</span>
                         @endif
                     </div>
                     <div class="form-group">
                         <input type="email" class="form-control" name="email" placeholder="Email">
                         @if ($errors->has('email'))
-                            <span class="text-dark">{{ $errors->first('email') }}</span>
+                            <span class="text-light">{{ $errors->first('email') }}</span>
                         @endif
                     </div>
                     <div class="form-group">
                         <input type="password" class="form-control" name="password" placeholder="Password">
                         @if ($errors->has('password'))
-                            <span class="text-dark">{{ $errors->first('password') }}</span>
+                            <span class="text-light">{{ $errors->first('password') }}</span>
                         @endif
                     </div>
                     <div class="form-check">
