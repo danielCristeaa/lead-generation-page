@@ -18,12 +18,6 @@ class UserController extends Controller
      */
     public function create(Request $request)
     {
-//        $checkExistingUser = DB::table('users')->where('email', '=', $request->input('email'))->get();
-//        if($checkExistingUser)
-//        {
-//            return redirect()->route('landing');
-//        }
-
         $request->validate(['firstname' => 'required|min:2|max:150',
                             'lastname' => 'required|min:2|max:150',
                             'email' => 'required|unique:users',
